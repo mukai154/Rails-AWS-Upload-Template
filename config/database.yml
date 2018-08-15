@@ -1,13 +1,13 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: s3_direct_upload_example_development
+  database: rails-aws-upload-template-development
   host: localhost
   pool: 5
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: s3_direct_upload_example_test
+  database: rails-aws-upload-template-test
   host: localhost
   pool: 5
